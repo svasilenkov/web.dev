@@ -1,0 +1,17 @@
+synchronize:
+  paths:
+  - source: src/site/content/en
+    exclude:
+    - "lighthouse-seo/*.*"
+
+pretranslate:
+  segments:
+    ignore_patterns:
+    - "{# wf_(?!featured_snippet).*#}"
+    - "^(Note|Caution|Warning|Success|Key Point|Key Term|Objective|Dogfood): "
+    - "{:.*}"
+    - "{%.*%}"
+  paths:
+  - source: src/site/content/en
+    include:
+    - "accessible/*.*"
