@@ -29,10 +29,7 @@ Inserte un elemento en el orden de tabulación natural usando `tabindex="0"` . P
 
 Para enfocar un elemento, presione la tecla `TAB` o llame al método `focus()` del elemento.
 
-<div class="glitch-embed-wrap" style="height: 346px; width: 100%;">
-  <iframe src="https://glitch.com/embed/#!/embed/tabindex-zero?path=index.html&previewSize=100&attributionHidden=true" alt="tabindex-zero on Glitch" style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div>
+<div class="glitch-embed-wrap" style="height: 346px; width: 100%;">   <iframe src="https://glitch.com/embed/#!/embed/tabindex-zero?path=index.html&previewSize=100&attributionHidden=true" alt="tabindex-zero on Glitch" style="height: 100%; width: 100%; border: 0;">   </iframe> </div>
 
 ## Eliminar un elemento del orden de tabulación
 
@@ -44,10 +41,7 @@ Eliminar un elemento usando `tabindex="-1"` . Por ejemplo:
 
 Esto elimina un elemento del orden de tabulación natural, pero el elemento aún puede ser enfocado llamando a su método `focus()` .
 
-<div class="glitch-embed-wrap" style="height: 346px; width: 100%;">
-  <iframe src="https://glitch.com/embed/#!/embed/tabindex-negative-one?path=index.html&previewSize=100&attributionHidden=true" alt="tabindex-negative-one on Glitch" style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div>
+<div class="glitch-embed-wrap" style="height: 346px; width: 100%;">   <iframe src="https://glitch.com/embed/#!/embed/tabindex-negative-one?path=index.html&previewSize=100&attributionHidden=true" alt="tabindex-negative-one on Glitch" style="height: 100%; width: 100%; border: 0;">   </iframe> </div>
 
 ## Evitar `tabindex > 0`
 
@@ -85,10 +79,7 @@ Cuando esto sucede, el componente establece el `tabindex` de `tabindex` del niñ
 </div>
 ```
 
-<div class="glitch-embed-wrap" style="height: 346px; width: 100%;">
-  <iframe src="https://glitch.com/embed/#!/embed/roving-tabindex?path=index.html&previewSize=100&attributionHidden=true" alt="tabindex-negative-one on Glitch" style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div>
+<div class="glitch-embed-wrap" style="height: 346px; width: 100%;">   <iframe src="https://glitch.com/embed/#!/embed/roving-tabindex?path=index.html&previewSize=100&attributionHidden=true" alt="tabindex-negative-one on Glitch" style="height: 100%; width: 100%; border: 0;">   </iframe> </div>
 
 {% Aside %} ¿Curioso para qué sirven esos atributos `role=""` ? Te dejan cambiar el semántica de un elemento para que sea anunciado correctamente por un lector de pantalla. Puede obtener más información sobre ellos en nuestra guía sobre [Lo básico del lector de pantalla](/semantics-and-screen-readers) . {% endAside %}
 
